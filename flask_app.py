@@ -75,5 +75,4 @@ def create_data():
 
 
 if __name__ == '__main__':
-    db.create_all()
     app.run(host='python', port=80, debug=True)
